@@ -45,7 +45,7 @@ body {
     padding-top: .5em;
     padding-bottom: 0.5em;
     grid-area: head;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('static/images/gb.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('static/images/gb.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +178,7 @@ main {
     padding: 0;
     padding-top: 0.2em;
     padding-left: 0.5em;
-    background-image: url('static/images/flash.avif');
+    background-image: url('static/images/flash.webp');
     background-size: cover;
 }
 
@@ -252,7 +252,7 @@ main {
 }
 
 .footer {
-    background-image: url('static/images/background.avif');
+    background-image: url('static/images/background.webp');
     background-size: cover;
     padding-top: 0.5em;
     padding-bottom: 0.5em
