@@ -31,13 +31,9 @@
   <link rel="manifest" href="static/favicons/manifest.json">
   <link rel="mask-icon" href="static/favicons/safari-pinned-tab.svg" color="#3853a4">
   <link rel="shortcut icon" href="static/favicons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-TileImage" content="static/favicons/mstile-144x144.png">
-  <meta name="msapplication-config" content="static/favicons/browserconfig.xml">
   <meta name="theme-color" content="#333333">
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/fontawesome.min.css"
     integrity="sha512-WAQldzapOKc+yIZB/g4npsWhF43dQ74uxwR6WkySVIKVGKaVNSuRw19CQeqN2OmYmg34g7TsZv3sh9nsQXYj3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -53,26 +49,22 @@
 </head>
 
 <body>
-  <div id="maincontent">
+  <div>
     <header>
-      <div id="header-background" class="floating" style="display: flex; flex-wrap: nowrap; justify-content: center">
+      <div class="header-background floating">
         <div class="header-text">
           <h1>Get Involved with Something Unique!</h1>
           <h2 style="margin-top: 0.2em; padding-bottom: 0.5em; padding-left: 1em;"><em>By students, for students</em>
           </h2>
         </div>
         <div class="no-mobile" style="margin-left: auto; margin-top: auto; margin-bottom: auto; margin-right: 2em;">
-          <img src="static/images/tec_logo_white.webp" id="headerlogo" style="height: 120px; width: auto">
+          <img src="static/images/tec_logo_white.webp" style="height: 120px; width: auto">
         </div>
       </div>
     </header>
     <main>
       <div class="container">
-        <div style="padding-top: .5em; padding-bottom: 0.5em; grid-area: head; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('static/images/gb.webp'); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100vw; position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;">
+        <div class="mainBody">
           <div style="max-width: 70%; margin: auto;">
             <p>
               TEC is an UoNSU Student Group providing technical services within the University to the Union and other
@@ -91,8 +83,8 @@
             </ul>
             <h3><em>You</em> can be one of the volunteers making it continue year on year!</h3>
           </div>
-          <div id="signup" style="margin-top: 5em;">
-            <div style="text-align: center;">
+          <div class="signup">
+            <div>
               <button type="button" style="background: #078148; border-top: 3em">
                 <a href="https://www.su.nottingham.ac.uk/student-media-groups/tec/">Sign Up!</a>
               </button>
@@ -103,44 +95,45 @@
             </p>
           </div>
         </div>
-        <div style="grid-area: testemonial">
+        <div style="grid-area: testimonial">
           <h2 class="header">Why join TEC? Simple.</h2>
           <p>Our members say:</p>
-          <div id="testemonial-grid">
+          <div id="testimonial-grid">
             <img src="static/images/liv.webp" style="width:5em; border-radius: 50%;">
-            <div class="blue floating testemonial-quote">
+            <div class="blue floating testimonial-quote">
               <h3>"TEC allowed me to really engage with student life, I have made lifelong friendships and unforgettable
                 memories." — Liv</h3>
             </div>
             <img src="static/images/jess.webp" class="headshot">
-            <div class="blue floating testemonial-quote">
+            <div class="blue floating testimonial-quote">
               <h3>"Coolest group I've joined" — Jess </h3>
             </div>
             <img src="static/images/mattsface.webp" class="headshot">
-            <div class="blue floating testemonial-quote">
+            <div class="blue floating testimonial-quote">
               <h3>"Running events in our team gives me a sense of pride like nothing else" — Matt </h3>
             </div>
           </div>
         </div>
 
-        <div id="nmi" style="grid-area: nmi">
+        <div class="nmi" style="grid-area: nmi">
           <h2 class="header">New Members' Introduction</h2>
           <p>TEC is all about getting stuck in ⁠— why not come along to a New Members' Introduction? We'll introduce you
-            to some of our kit and how to use it. No experience is required and once you’ve attended, you can come along
+            to some of our kit and how to use it. No experience is required and once you&apos;ve attended, you can come
+            along
             to any TEC event.</p>
           <div class="nmi-location">
-            <h3 style="text-align:center;font-size:20px;">Thursday 25th September @ 18:30 in The Welcome Zone, Portland
+            <h3>Thursday 25th September @ 18:30 in The Welcome Zone, Portland
               Building</h3>
           </div>
           <div class="nmi-location" style="margin-top: 15px;">
-            <h3 style="text-align:center;font-size:20px;">Saturday 27th September @ 12:30 in The Welcome Zone, Portland
+            <h3>Saturday 27th September @ 12:30 in The Welcome Zone, Portland
               Building</h3>
           </div>
         </div>
 
         <div style="grid-area: benefits">
           <h2 class="header">What can I get from TEC?</h2>
-          <img id="socialimg" src="static/images/wa.webp" class="floating">
+          <img src="static/images/wa.webp" class="socialimg floating">
           <p>We learn how to maintain and operate equipment to a high standard. You'll acquire skills and experience
             which look excellent on a CV. Take it from any number of our members who are employed in the events
             industry! TEC provides an unparalleled opportunity for networking with fellow teccies and clients alike.
@@ -149,7 +142,7 @@
 
         <div style="grid-area: socials">
           <h2 class="header">Socials</h2>
-          <img id="socialimg" src="static/images/social.webp" class="floating">
+          <img src="static/images/social.webp" class="socialimg floating">
           <p>Running events may be what we do but we also enjoy kicking back and relaxing. We're often found in the pub
             enjoying our 'crew food' — TEC provides food for its members on or after events. We also hold other socials
             such as Go-Ape, bowling and go-karting, usually paid for by TEC.</p>
@@ -159,8 +152,7 @@
           <!--- Mynd you, møøse bites Kan be pretti nasti... --->
           <h2 class="header" style="grid-area: moose">What's with the moose?</h2>
           <div style="display: flex; flex-direction: row;" id="moose">
-            <img id="moose" src="static/images/poster.webp" style="width: 500px; margin: 1em;"
-              style="grid-area: mooseimg">
+            <img class="moose" src="static/images/poster.webp" style="grid-area: mooseimg">
             <p style="grid-area: moosetext">The moose is TEC's mascot, seen here doing a rather good impression of Lord
               Kitchener to help us out with recruitment. Previously guardian of our van he has since been promoted to
               watch over our office in the Portland Building. The storeroom guarding job was already covered by a duck.
@@ -175,21 +167,22 @@
         class="blue">
         <h2 style="text-align: center; width: 100%; padding-top: 0.5em; padding-bottom: 0px; margin-bottom: 0px"
           class="no-desktop">Find us:</h2>
-        <div id="contact">
+        <div class="contact">
           <h2 class="no-mobile">Find us:</h2>
-          <h2><a href="mailto:info@nottinghamtec.co.uk"><i class="fas fa-envelope"></i></a></h2>
-          <h2><a href="https://facebook.com/nottinghamtec"><i class="fab fa-facebook"></i></a>
+          <h2><a href="mailto:info@nottinghamtec.co.uk" aria-label="Email"><i class="fas fa-envelope"></i></a></h2>
+          <h2><a href="https://facebook.com/nottinghamtec" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
           </h2>
-          <h2><a href="https://twitter.com/nottinghamtec"><i class="fab fa-twitter"></i></a>
+          <h2><a href="https://x.com/nottinghamtec" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
           </h2>
-          <h2><a href="https://instagram.com/nottinghamtec"><i class="fab fa-instagram"></i></a>
+          <h2><a href="https://instagram.com/nottinghamtec" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </h2>
+          <h2><a href="https://www.tiktok.com/@nottinghamtec" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
           </h2>
           <h2><a class="no-decor" href="tel:01158468720"><i class="fas fa-phone"></i><span class="no-mobile">
                 <u>0115 846 8720</u></span></a></h2>
         </div>
       </div>
-      <div
-        style="background-image: url('static/images/background.webp'); background-size: cover; padding-top: 0.5em; padding-bottom: 0.5em">
+      <div class="footer">
         <div style="display: flex">
           <div>
             <img src="static/images/tec_logo_white.webp"
